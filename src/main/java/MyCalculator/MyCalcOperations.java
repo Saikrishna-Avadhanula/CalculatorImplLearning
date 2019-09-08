@@ -6,6 +6,15 @@ import Config.LoggerBase;
 public class MyCalcOperations extends LoggerBase implements ICalcOperation {
     LoggerBase loggerBase = new LoggerBase();
     private int num1,num2;
+    private double result;
+
+    public double getResult() {
+        return result;
+    }
+
+    private void setResult(double result) {
+        this.result = result;
+    }
 
     public int getNum1() {
         return num1;
@@ -27,25 +36,44 @@ public class MyCalcOperations extends LoggerBase implements ICalcOperation {
     public int addition() {
         loggerBase.info("Starting Addition Operation");
         try {
-
+            result = num1+num2;
         }
         catch(Exception e){
-
+            loggerBase.error("Execption Occured: "+e.getMessage());
         }
-        return 0;
+        return (int)result;
     }
 
-    public void subtraction() {
-
+    public int subtraction() {
+        loggerBase.info("Starting Addition Operation");
+        try {
+            result = num1-num2;
+        }
+        catch(Exception e){
+            loggerBase.error("Execption Occured: "+e.getMessage());
+        }
+        return (int)result;
     }
 
-    public void multiplication() {
-
+    public int multiplication() {
+        loggerBase.info("Starting Addition Operation");
+        try {
+            result = num1*num2;
+        }
+        catch(Exception e){
+            loggerBase.error("Execption Occured: "+e.getMessage());
+        }
+        return (int)result;
     }
 
-    public int divide() {
-
-        int result = num1/num2;
+    public double divide() {
+        loggerBase.info("Starting Division Operation");
+        try {
+            result = num1/num2;
+        }
+        catch(Exception e){
+            loggerBase.error("Execption occured during division of"+num1 +","+num2+" :: "+e.getMessage());
+        }
         return result;
     }
 }

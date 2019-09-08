@@ -6,8 +6,8 @@ public interface ICalcOperation {
 
 
     <num1, num2> int addition();
-    void subtraction();
-    void multiplication();
-    int divide();
+    int subtraction();
+    int multiplication();
+    double divide();
 
 }
