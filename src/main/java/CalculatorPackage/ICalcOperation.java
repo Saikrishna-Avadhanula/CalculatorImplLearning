@@ -1,13 +1,11 @@
 package CalculatorPackage;
 
 public interface ICalcOperation {
-    int num1=0;
-    int num2=0;
 
-
-    <num1, num2> int addition();
-    int subtraction();
-    int multiplication();
+    int addition(int iNum1,int iNum2);
+    double addition();
+    double subtraction();
+    double multiplication();
     double divide();
 
 }
