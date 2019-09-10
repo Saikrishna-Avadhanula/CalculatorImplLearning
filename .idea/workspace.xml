@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62496a7b-7065-4f94-9a75-3c2f3cd32541" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCalculator/MyCalcDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MyCalculator/MyOperationDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/CalculatorPackage/ICalcOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CalculatorPackage/ICalcOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Config/LoggerBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Config/LoggerBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyCalculator/MyCalcDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyCalculator/MyCalcDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyCalculator/MyCalcOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyCalculator/MyCalcOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Config/LoggerBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Config/LoggerBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyCalculator/MyOperationDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyCalculator/MyOperationDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculatorPackage/ICalcOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CalculatorPackage/ICalcOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyCalculator/MyCalcDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyCalculator/MyCalcDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyCalculator/MyCalcOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyCalculator/MyCalcOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MyCalculator/MyOperationDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyCalculator/MyOperationDriver.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
